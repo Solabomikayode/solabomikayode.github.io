@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <meta name="viweport" content="width=device-width initial scale=1">
+    <title>Responsive Layout</title>
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+      h1 {
+      margin-bottom: 15px;
+      }
+      p {
+      border: 1px solid black;
+      background-colour: gray;
+      width:90%;
+      height: 150;
+      margin-right: auto;
+      margin-left: auto;
+      font-family: Helvetica;
+      color: white;
+      }
+      .row{
+      width: 100%
+      }
+      /For Desktop/
+      @media (min-width:992px) {
+      .col-lg-1, .col-lg-2, .col-lg-3 {
+      float: left;
+      border: 1px solid green;
+        }
+      .col-lg-1 {
+      width: 33%
+      }
+      .col-lg-2: {
+       width: 67%
+      }
+      .col-lg-3: {
+      width: 100%   
+      }
+      }
+      /For Tablet/
+      @media (min-width: 768px) and (max-width: 991px) {
+      .col-md-1, .col-md-2, .col-md-3 {
+        float: left;
+        border: 1px solid green;
+      }
+      .col-md-1 {
+      width: 33%  
+      }
+      .col-md-2 {
+      width: 67% 
+      }
+      .col-md-3 {
+      width: 100%
+      }
+      }
+      /For Mobile/
+      @media (max-width: 767px) {
+      .col-sm-1, .col-sm-2, .col-sm-3{
+      border: 1px solid green;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Responsive Layout For Different Devices</h1>
+    <p>
+    <div id="box">
+      <div id="title">Beans Porridge</div>
+      <div id="content">lalalalalalalalllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalaoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooolllllllllllllllllllllllllllllllllllllllllllllllllllllllll</div>
+      </div>
+    </p>
+   </body>
+</html>
